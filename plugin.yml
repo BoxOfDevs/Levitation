@@ -1,0 +1,13 @@
+name: Levitation
+author: BoxOfDevs Team
+version: "1.0"
+api: [2.0.0]
+main: BoxOfDevs\Levitation\Main
+commands: 
+   levitate:
+       description: "Give a player the levitation effect"
+       usage: "/levitate <player> [time] [amplifier] [hideParticles] "
+       permission: levitation.allow
+permissions: 
+   levitation.allow:
+        default: op
